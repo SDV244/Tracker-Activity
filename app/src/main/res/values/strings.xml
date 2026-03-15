@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitTrack</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_nutrition">Nutrition</string>
+    <string name="nav_workout">Workout</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Dashboard -->
+    <string name="calories">Calories</string>
+    <string name="remaining">Remaining</string>
+    <string name="consumed">Consumed</string>
+    <string name="burned">Burned</string>
+    
+    <!-- Nutrition -->
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="search_foods">Search foods</string>
+    
+    <!-- Workout -->
+    <string name="start_workout">Start Workout</string>
+    <string name="finish_workout">Finish Workout</string>
+    <string name="add_exercise">Add Exercise</string>
+    
+    <!-- Health Connect -->
+    <string name="health_connect">Health Connect</string>
+    <string name="connect_wearables">Connect with wearables</string>
+    
+    <!-- Health permissions array for manifest -->
+    <string-array name="health_permissions">
+        <item>android.permission.health.READ_STEPS</item>
+        <item>android.permission.health.READ_DISTANCE</item>
+        <item>android.permission.health.READ_TOTAL_CALORIES_BURNED</item>
+        <item>android.permission.health.READ_ACTIVE_CALORIES_BURNED</item>
+        <item>android.permission.health.READ_HEART_RATE</item>
+        <item>android.permission.health.READ_EXERCISE</item>
+        <item>android.permission.health.READ_SLEEP</item>
+        <item>android.permission.health.READ_WEIGHT</item>
+        <item>android.permission.health.WRITE_EXERCISE</item>
+        <item>android.permission.health.WRITE_NUTRITION</item>
+        <item>android.permission.health.WRITE_WEIGHT</item>
+    </string-array>
+</resources>
